@@ -5694,7 +5694,7 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "80d001d3-b276-4fa9-bbb3-5fb567b30b9b",
-                    "x": 6,
+                    "x": 5,
                     "y": 6
                 },
                 {
@@ -5729,7 +5729,7 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "751edea9-e488-4259-ad9b-9c7ec1b43e41",
-                    "x": 13,
+                    "x": 11,
                     "y": 6
                 },
                 {
@@ -5799,7 +5799,7 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "1e093488-6d7e-4296-b359-57e54ba0f5db",
-                    "x": 6,
+                    "x": 5,
                     "y": 11
                 },
                 {
@@ -5834,7 +5834,7 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "6fb597d1-4a99-4146-9b6c-27cc945862cc",
-                    "x": 13,
+                    "x": 11,
                     "y": 11
                 },
                 {
@@ -5869,8 +5869,8 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "a421c2aa-9f13-4b1b-a8a5-64ad56b502b0",
-                    "x": 19,
-                    "y": 11
+                    "x": 22,
+                    "y": 6
                 },
                 {
                     "name": "",
@@ -5904,8 +5904,8 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "53d7bc74-0304-4f73-a14d-da6d952632ab",
-                    "x": 24,
-                    "y": 11
+                    "x": 25,
+                    "y": 6
                 },
                 {
                     "name": "",
@@ -5939,8 +5939,8 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "a76351ce-008f-4a6a-87b2-7ae57b07c1e5",
-                    "x": 24,
-                    "y": 16
+                    "x": 8,
+                    "y": 2
                 },
                 {
                     "name": "",
@@ -5974,43 +5974,8 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "5a9cfdd3-3d51-4dcc-810e-5c25f52f2849",
-                    "x": 19,
-                    "y": 16
-                },
-                {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "efe53dd9-b68b-4d85-9f94-18d945439281",
-                    "spriteType": "static",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 3,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "collisionGroup": "",
-                    "script": [
-                        {
-                            "id": "7ed0cb94-134e-41d4-bd07-bc9bfdde5dbb",
-                            "command": "EVENT_MUSIC_PLAY",
-                            "args": {
-                                "musicId": "c0896bbd-c978-4bd9-92e4-da543eada4bb",
-                                "loop": false
-                            }
-                        },
-                        {
-                            "id": "4da60f10-fb24-4e65-b680-9a1c5a91addf",
-                            "command": "EVENT_END"
-                        }
-                    ],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "94b0bc48-2523-4687-825a-d4ec50343d96",
-                    "x": 13,
-                    "y": 16
+                    "x": 22,
+                    "y": 11
                 },
                 {
                     "name": "",
@@ -6044,43 +6009,8 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "9072f60e-f84b-4285-a8a3-302f7c35652f",
-                    "x": 6,
-                    "y": 16
-                },
-                {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "efe53dd9-b68b-4d85-9f94-18d945439281",
-                    "spriteType": "static",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 3,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "collisionGroup": "",
-                    "script": [
-                        {
-                            "id": "e75dce8c-2f31-44f0-963e-ea5402f55983",
-                            "command": "EVENT_MUSIC_PLAY",
-                            "args": {
-                                "musicId": "cec203f9-e06c-4544-84c2-ba0470afcb59",
-                                "loop": false
-                            }
-                        },
-                        {
-                            "id": "13d3596c-d192-4f78-914f-55d20b1bbd45",
-                            "command": "EVENT_END"
-                        }
-                    ],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "a0e8e5cf-7e65-4fcd-9d8c-defacb344e84",
-                    "x": 10,
-                    "y": 16
+                    "x": 19,
+                    "y": 11
                 },
                 {
                     "name": "",
@@ -6114,7 +6044,7 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "16a7aff3-0bf0-4a5d-bba4-37f4beb98fd0",
-                    "x": 10,
+                    "x": 8,
                     "y": 6
                 },
                 {
@@ -6149,7 +6079,7 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "cd2fda71-6138-4bf3-9d6d-50fb24de6405",
-                    "x": 10,
+                    "x": 8,
                     "y": 11
                 }
             ],
@@ -6165,8 +6095,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "basic.png",
-            "inode": "54837624",
-            "_v": 1622651468760
+            "inode": "12103423998766319",
+            "_v": 1622689755243
         },
         {
             "id": "8c4ed934-8b53-44b7-b584-e5da9749c0e6",
@@ -6176,8 +6106,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "hole.png",
-            "inode": "54780303",
-            "_v": 1622651468760
+            "inode": "11540474045345005",
+            "_v": 1622689755244
         },
         {
             "id": "47116fa0-e490-4d84-b6d5-240ad85139f1",
@@ -6187,8 +6117,8 @@
             "imageWidth": 800,
             "imageHeight": 144,
             "filename": "mapのコピー.png",
-            "inode": "55441441",
-            "_v": 1622651468760
+            "inode": "17732923532979444",
+            "_v": 1622689755243
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
@@ -6198,8 +6128,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "placeholder.png",
-            "inode": "53344443",
-            "_v": 1622651468760
+            "inode": "12103423998766315",
+            "_v": 1622689755244
         },
         {
             "id": "90263b8c-680a-4c8c-b1d3-b987c4b39882",
@@ -6209,8 +6139,8 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "stars.png",
-            "inode": "54973128",
-            "_v": 1622651468760
+            "inode": "11821949022055652",
+            "_v": 1622689755245
         }
     ],
     "spriteSheets": [
@@ -6220,8 +6150,8 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "Cheetah.png",
-            "inode": "54840759",
-            "_v": 1622651468760
+            "inode": "9570149208370455",
+            "_v": 1622689755244
         },
         {
             "id": "0da738d9-7c50-4e03-9813-293f5df4e5bf",
@@ -6229,8 +6159,8 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "Dog.png",
-            "inode": "54840921",
-            "_v": 1622651468760
+            "inode": "5066549580999953",
+            "_v": 1622689755245
         },
         {
             "id": "a3025f00-cd94-4ef6-b2a8-827f1036c0d5",
@@ -6238,8 +6168,8 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "Goat.png",
-            "inode": "55218193",
-            "_v": 1622651468760
+            "inode": "13792273859030284",
+            "_v": 1622689755245
         },
         {
             "id": "983eeed8-b88a-430f-b740-561f68672c5b",
@@ -6247,8 +6177,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "Meat.PNG",
-            "inode": "55219255",
-            "_v": 1622651468760
+            "inode": "14355223812451593",
+            "_v": 1622689755245
         },
         {
             "id": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
@@ -6256,8 +6186,8 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "actor.png",
-            "inode": "53344449",
-            "_v": 1622651468760
+            "inode": "18014398509690122",
+            "_v": 1622689755244
         },
         {
             "id": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
@@ -6265,8 +6195,8 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "actor_animated.png",
-            "inode": "53344451",
-            "_v": 1622651468760
+            "inode": "5910974511131922",
+            "_v": 1622689755244
         },
         {
             "id": "daf95270-e30d-423b-9ee7-990ae29f57f6",
@@ -6274,8 +6204,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "static.png",
-            "inode": "53344453",
-            "_v": 1622651468760
+            "inode": "12947848928898317",
+            "_v": 1622689755245
         }
     ],
     "palettes": [
@@ -6423,216 +6353,216 @@
             "name": "Awkward Death",
             "filename": "Awkward Death.mod",
             "settings": {},
-            "inode": "55495700",
-            "_v": 1622651468751
+            "inode": "17169973579558321",
+            "_v": 1622689755212
         },
         {
             "id": "a3b43dff-55d4-446f-9b1f-0063a86dd986",
             "name": "Backbeat Metal Drumming",
             "filename": "Backbeat Metal Drumming.mod",
             "settings": {},
-            "inode": "54707403",
-            "_v": 1622651468751
+            "inode": "16044073672715603",
+            "_v": 1622689755212
         },
         {
             "id": "140bcaf0-99cd-4713-9518-30783bcd047a",
             "name": "Battle Encounter",
             "filename": "Battle Encounter.mod",
             "settings": {},
-            "inode": "55495662",
-            "_v": 1622651468751
+            "inode": "14073748835740976",
+            "_v": 1622689755212
         },
         {
             "id": "4dc2d69d-3a67-4fb9-82a4-ed1caef9f289",
             "name": "Battle Motif",
             "filename": "Battle Motif.mod",
             "settings": {},
-            "inode": "55495664",
-            "_v": 1622651468752
+            "inode": "5629499534422337",
+            "_v": 1622689755212
         },
         {
             "id": "7bc10cca-1d8f-4c13-9c55-508bae0f0e84",
             "name": "Boss fight1",
             "filename": "Boss fight1.mod",
             "settings": {},
-            "inode": "54706984",
-            "_v": 1622651468752
+            "inode": "8162774324817856",
+            "_v": 1622689755212
         },
         {
             "id": "01a5a78e-ec71-4877-a948-5027899c0d42",
             "name": "Excited Suspense",
             "filename": "Excited Suspense.mod",
             "settings": {},
-            "inode": "55495666",
-            "_v": 1622651468752
+            "inode": "9007199254949169",
+            "_v": 1622689755212
         },
         {
             "id": "fb41c924-8597-40b5-af06-e5106edfe737",
             "name": "Explosion1",
             "filename": "Explosion1.mod",
             "settings": {},
-            "inode": "55501591",
-            "_v": 1622651468752
+            "inode": "14073748835740993",
+            "_v": 1622689755212
         },
         {
             "id": "f85b9c7f-b919-439b-afdb-9bd7b215304e",
             "name": "Falling Asleep",
             "filename": "Falling Asleep.mod",
             "settings": {},
-            "inode": "55495668",
-            "_v": 1622651468752
+            "inode": "19421773393243555",
+            "_v": 1622689755212
         },
         {
             "id": "c5b62f19-731e-47eb-b94b-110cf0fd5713",
             "name": "Game Over Loop",
             "filename": "Game Over Loop.mod",
             "settings": {},
-            "inode": "55495670",
-            "_v": 1622651468752
+            "inode": "16044073672715552",
+            "_v": 1622689755212
         },
         {
             "id": "41fa8ac9-6a64-426e-afa2-3aa242b50d8a",
             "name": "Joyous Takeoff",
             "filename": "Joyous Takeoff.mod",
             "settings": {},
-            "inode": "54708578",
-            "_v": 1622651468752
+            "inode": "16325548649426243",
+            "_v": 1622689755212
         },
         {
             "id": "d20f38e1-2519-41d6-af8a-e7d7a120a09e",
             "name": "Kick Kick Kick Crash",
             "filename": "Kick Kick Kick Crash.mod",
             "settings": {},
-            "inode": "54707699",
-            "_v": 1622651468752
+            "inode": "19703248369954187",
+            "_v": 1622689755212
         },
         {
             "id": "d1f35d4b-b390-4305-9cca-761d550d9b5c",
             "name": "Nursery Rhyme with pauses",
             "filename": "Nursery Rhyme with pauses.mod",
             "settings": {},
-            "inode": "55495672",
-            "_v": 1622651468752
+            "inode": "15762598696004893",
+            "_v": 1622689755212
         },
         {
             "id": "815f57cb-622e-4480-897c-07e82fe768db",
             "name": "Out of Energy Game Over",
             "filename": "Out of Energy Game Over.mod",
             "settings": {},
-            "inode": "55495660",
-            "_v": 1622651468752
+            "inode": "11258999068634396",
+            "_v": 1622689755212
         },
         {
             "id": "b5357702-972c-4fdc-aa46-82d45418af8b",
             "name": "Pitfall Death",
             "filename": "Pitfall Death.mod",
             "settings": {},
-            "inode": "55495674",
-            "_v": 1622651468752
+            "inode": "8444249301527893",
+            "_v": 1622689755212
         },
         {
             "id": "5fa1f09b-fbaa-4825-a049-9dc6623eeb5b",
             "name": "Radical Intro",
             "filename": "Radical Intro.mod",
             "settings": {},
-            "inode": "55495676",
-            "_v": 1622651468752
+            "inode": "15481123719294245",
+            "_v": 1622689755212
         },
         {
             "id": "4f233a0d-35af-4fa2-9706-9df9a8b0ca34",
             "name": "Radical Victory",
             "filename": "Radical Victory.mod",
             "settings": {},
-            "inode": "55495678",
-            "_v": 1622651468752
+            "inode": "14918173765873431",
+            "_v": 1622689755212
         },
         {
-            "id": "bc666c6c-db0e-4d51-a8b5-f7e7e12b8f35",
-            "name": "Rascal's Ditty",
-            "filename": "Rascal's Ditty.mod",
+            "id": "98811c6c-4392-4597-aeab-843ade8228b9",
+            "name": "Rascal_s Ditty",
+            "filename": "Rascal_s Ditty.mod",
             "settings": {},
-            "inode": "55495680",
-            "_v": 1622651468752
+            "inode": "6473924464553883",
+            "_v": 1622689755212
         },
         {
             "id": "3849df5e-c002-4950-b199-4f1e86e47e70",
             "name": "Short Lullaby with Keyulation.mod",
             "filename": "Short Lullaby with Key Modulation.mod",
             "settings": {},
-            "inode": "55495682",
-            "_v": 1622651468752
+            "inode": "13229323905609542",
+            "_v": 1622689755212
         },
         {
             "id": "711aa2ba-3c82-4344-a1ed-348ea13e7a6c",
             "name": "Short SML2-Style Jingle",
             "filename": "Short SML2-Style Jingle.mod",
             "settings": {},
-            "inode": "55495684",
-            "_v": 1622651468752
+            "inode": "14355223812451648",
+            "_v": 1622689755212
         },
         {
             "id": "a906f36a-91e7-4b5a-92ae-7728dfb210b2",
             "name": "Silly Death",
             "filename": "Silly Death.mod",
             "settings": {},
-            "inode": "55495686",
-            "_v": 1622651468752
+            "inode": "11540474045345077",
+            "_v": 1622689755212
         },
         {
             "id": "338e3a5e-711f-4b6e-8486-daf9962932c7",
             "name": "Slow death",
             "filename": "Slow death.mod",
             "settings": {},
-            "inode": "55495688",
-            "_v": 1622651468752
+            "inode": "21392098230218019",
+            "_v": 1622689755212
         },
         {
             "id": "00fd06a2-0d99-415d-bd7c-b4aef2556721",
             "name": "Swing into Victory",
             "filename": "Swing into Victory.mod",
             "settings": {},
-            "inode": "55495690",
-            "_v": 1622651468752
+            "inode": "5629499534422336",
+            "_v": 1622689755212
         },
         {
             "id": "cec203f9-e06c-4544-84c2-ba0470afcb59",
             "name": "The Sad Truth",
             "filename": "The Sad Truth.mod",
             "settings": {},
-            "inode": "55495692",
-            "_v": 1622651468752
+            "inode": "16888498602847518",
+            "_v": 1622689755212
         },
         {
             "id": "c0896bbd-c978-4bd9-92e4-da543eada4bb",
             "name": "Victory Fanfare",
             "filename": "Victory Fanfare.mod",
             "settings": {},
-            "inode": "55495694",
-            "_v": 1622651468752
+            "inode": "17169973579558186",
+            "_v": 1622689755212
         },
         {
             "id": "8b06828c-a43d-46e1-9509-8d6d2ab6cf02",
             "name": "Victory Lap",
             "filename": "Victory Lap.mod",
             "settings": {},
-            "inode": "55495696",
-            "_v": 1622651468752
+            "inode": "5910974511133043",
+            "_v": 1622689755212
         },
         {
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
             "name": "template",
             "filename": "template.mod",
             "settings": {},
-            "inode": "53344446",
-            "_v": 1622651468752
+            "inode": "5348024557711292",
+            "_v": 1622689755212
         },
         {
             "id": "e4fd4c4f-ca58-48d4-b0bd-291246f1d349",
             "name": "決定、ボタン押下14",
             "filename": "決定、ボタン押下14.mod",
             "settings": {},
-            "inode": "54705112",
-            "_v": 1622651468752
+            "inode": "5629499534422061",
+            "_v": 1622689755213
         }
     ],
     "variables": [
@@ -6659,13 +6589,13 @@
         "startSceneId": "d6809399-6e66-4b13-973b-5a664c593b59",
         "playerSpriteSheetId": "0da738d9-7c50-4e03-9813-293f5df4e5bf",
         "startX": 9,
-        "startY": 8,
+        "startY": 10,
         "startMoveSpeed": 1,
         "startAnimSpeed": 3,
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 696,
+        "worldScrollX": 725,
         "worldScrollY": 3,
         "zoom": 163.264248855412,
         "customColorsEnabled": true,
@@ -6682,9 +6612,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            517,
-            171,
-            171
+            388,
+            128,
+            128
         ],
         "showNavigator": true,
         "defaultFadeStyle": "white"
