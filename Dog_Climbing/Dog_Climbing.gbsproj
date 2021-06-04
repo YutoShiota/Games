@@ -26859,8 +26859,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "placeholder.png",
-            "inode": "6473924464698297",
-            "_v": 1622691058440
+            "inode": "55722835",
+            "_v": 1622770182730
         },
         {
             "id": "2351aae1-4148-4c93-9108-8e483499cbb5",
@@ -26870,8 +26870,8 @@
             "imageWidth": 480,
             "imageHeight": 1760,
             "filename": "test 2.png",
-            "inode": "5910974511276502",
-            "_v": 1622691058438
+            "inode": "55722819",
+            "_v": 1622770182730
         }
     ],
     "spriteSheets": [
@@ -26881,8 +26881,8 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "Dog.png",
-            "inode": "5629499534565835",
-            "_v": 1622691058440
+            "inode": "55722820",
+            "_v": 1622770182730
         },
         {
             "id": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
@@ -26890,8 +26890,8 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "actor.png",
-            "inode": "5629499534565832",
-            "_v": 1622691058439
+            "inode": "55722813",
+            "_v": 1622770182731
         },
         {
             "id": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
@@ -26899,8 +26899,8 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "actor_animated.png",
-            "inode": "5629499534565833",
-            "_v": 1622691058440
+            "inode": "55722825",
+            "_v": 1622770182731
         },
         {
             "id": "daf95270-e30d-423b-9ee7-990ae29f57f6",
@@ -26908,8 +26908,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "static.png",
-            "inode": "5629499534565837",
-            "_v": 1622691058440
+            "inode": "55722815",
+            "_v": 1622770182731
         }
     ],
     "palettes": [
@@ -27057,16 +27057,16 @@
             "name": "Short SML2-Style Jingle",
             "filename": "Short SML2-Style Jingle.mod",
             "settings": {},
-            "inode": "10414574138647769",
-            "_v": 1622691406076
+            "inode": "55722827",
+            "_v": 1622770182713
         },
         {
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
             "name": "template",
             "filename": "template.mod",
             "settings": {},
-            "inode": "25051272927601600",
-            "_v": 1622691058423
+            "inode": "55722852",
+            "_v": 1622770182714
         }
     ],
     "variables": [],
@@ -27118,9 +27118,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 606,
-        "worldScrollY": 290,
-        "zoom": 158.53562885522842,
+        "worldScrollX": 0,
+        "worldScrollY": 225,
+        "zoom": 133.40859803557396,
         "customColorsEnabled": true,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
@@ -27135,9 +27135,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            388,
-            128,
-            128
+            518,
+            170,
+            170
         ],
         "showNavigator": true,
         "defaultFadeStyle": "white"
