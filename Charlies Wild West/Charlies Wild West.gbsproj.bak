@@ -1,0 +1,439 @@
+{
+    "name": "Charlies Wild West",
+    "author": "yuto&jen",
+    "_version": "2.0.0",
+    "_release": "6",
+    "scenes": [
+        {
+            "name": "Scene 1",
+            "backgroundId": "6f1c1bff-3742-4cad-b726-b357387a735d",
+            "width": 20,
+            "height": 18,
+            "type": "0",
+            "paletteIds": [],
+            "collisions": [],
+            "tileColors": [],
+            "script": [
+                {
+                    "id": "eda6a01e-67c1-4479-b18b-f60385e256c0",
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
+                        "loop": true,
+                        "__collapse": false,
+                        "__comment": true
+                    }
+                },
+                {
+                    "id": "1d0cd2e6-347e-49f9-b8f3-7bbf8fca96a7",
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "1b8d2539-7e0b-463f-9415-d347377e4b1a",
+                        "__collapse": true
+                    }
+                },
+                {
+                    "id": "f7550645-977a-497b-8323-e6febeba96d1",
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "I'm Charlie."
+                        ],
+                        "avatarId": "",
+                        "__collapse": true
+                    }
+                },
+                {
+                    "id": "03755913-17e6-4fa6-b228-2d6eb03cc14a",
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "I love Pearl.\nShe's awesome!"
+                        ],
+                        "avatarId": "",
+                        "__collapse": true
+                    }
+                },
+                {
+                    "id": "9148d32f-33d7-4348-83ed-4003581bde97",
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "When she coming\nhome??"
+                        ],
+                        "avatarId": "",
+                        "__collapse": true
+                    }
+                },
+                {
+                    "id": "6f85cdd4-4bc5-4c96-91fc-32bfba9bc710",
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Baw, Baw."
+                        ],
+                        "avatarId": "",
+                        "__collapse": true
+                    }
+                },
+                {
+                    "id": "0da0553b-eeaf-4fb6-a6f0-d4963f4908b3",
+                    "command": "EVENT_SET_TIMER_SCRIPT",
+                    "args": {
+                        "duration": 20,
+                        "__scriptTabs": "end",
+                        "__collapse": false
+                    },
+                    "children": {
+                        "script": [
+                            {
+                                "id": "3ba35ed5-e80c-48c9-8ecc-150c0560b1ae",
+                                "command": "EVENT_ACTOR_SHOW",
+                                "args": {
+                                    "actorId": "1b8d2539-7e0b-463f-9415-d347377e4b1a",
+                                    "__collapse": true
+                                }
+                            },
+                            {
+                                "id": "756f2a64-3022-4d89-8c40-22bcfda97a86",
+                                "command": "EVENT_ACTOR_MOVE_TO",
+                                "args": {
+                                    "actorId": "1b8d2539-7e0b-463f-9415-d347377e4b1a",
+                                    "x": {
+                                        "type": "number",
+                                        "value": 9
+                                    },
+                                    "y": {
+                                        "type": "number",
+                                        "value": 10
+                                    },
+                                    "moveType": "horizontal",
+                                    "useCollisions": false,
+                                    "__collapse": true
+                                }
+                            },
+                            {
+                                "id": "9fb22d07-7672-487c-ae50-e98b1e7f85ff",
+                                "command": "EVENT_ACTOR_MOVE_TO",
+                                "args": {
+                                    "actorId": "player",
+                                    "x": {
+                                        "type": "number",
+                                        "value": 9
+                                    },
+                                    "y": {
+                                        "type": "number",
+                                        "value": 8
+                                    },
+                                    "moveType": "horizontal",
+                                    "useCollisions": false,
+                                    "__collapse": false
+                                }
+                            },
+                            {
+                                "id": "15bdc72e-b1e0-4ccb-ac90-00d6d4696bbd",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "615e5b81-a44a-4b10-9ada-8b655aeaf227",
+                    "command": "EVENT_END"
+                }
+            ],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": [],
+            "id": "adaee27a-79f8-4e17-8b5d-29e54798e1a4",
+            "x": 145.56871420040568,
+            "y": 67,
+            "actors": [
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "23c7f7c0-54d6-4b65-92de-f9003b036add",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 3,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "1b8d2539-7e0b-463f-9415-d347377e4b1a",
+                    "x": 9,
+                    "y": 17
+                }
+            ],
+            "triggers": []
+        }
+    ],
+    "backgrounds": [
+        {
+            "id": "6f1c1bff-3742-4cad-b726-b357387a735d",
+            "name": "home",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "home.png",
+            "inode": "56145370",
+            "_v": 1623250494964
+        },
+        {
+            "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+            "name": "placeholder",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "placeholder.png",
+            "inode": "56144707",
+            "_v": 1623250290598
+        }
+    ],
+    "spriteSheets": [
+        {
+            "id": "23c7f7c0-54d6-4b65-92de-f9003b036add",
+            "name": "Cheetah",
+            "numFrames": 6,
+            "type": "actor_animated",
+            "filename": "Cheetah.png",
+            "inode": "56151937",
+            "_v": 1623253116875
+        },
+        {
+            "id": "f6e96c8a-8f59-479a-9001-6ae05f95cf45",
+            "name": "Dog",
+            "numFrames": 6,
+            "type": "actor_animated",
+            "filename": "Dog.png",
+            "inode": "56145601",
+            "_v": 1623250605634
+        },
+        {
+            "id": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
+            "name": "actor",
+            "numFrames": 3,
+            "type": "actor",
+            "filename": "actor.png",
+            "inode": "56144713",
+            "_v": 1623250290599
+        },
+        {
+            "id": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+            "name": "actor_animated",
+            "numFrames": 6,
+            "type": "actor_animated",
+            "filename": "actor_animated.png",
+            "inode": "56144715",
+            "_v": 1623250290599
+        },
+        {
+            "id": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+            "name": "static",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "static.png",
+            "inode": "56144717",
+            "_v": 1623250290599
+        }
+    ],
+    "palettes": [
+        {
+            "id": "default-bg-1",
+            "name": "Default BG 1",
+            "colors": [
+                "F8E8C8",
+                "D89048",
+                "A82820",
+                "301850"
+            ],
+            "defaultName": "Default BG 1",
+            "defaultColors": [
+                "F8E8C8",
+                "D89048",
+                "A82820",
+                "301850"
+            ]
+        },
+        {
+            "id": "default-bg-2",
+            "name": "Default BG 2",
+            "colors": [
+                "E0F8A0",
+                "78C838",
+                "488818",
+                "081800"
+            ],
+            "defaultName": "Default BG 2",
+            "defaultColors": [
+                "E0F8A0",
+                "78C838",
+                "488818",
+                "081800"
+            ]
+        },
+        {
+            "id": "default-bg-3",
+            "name": "Default BG 3",
+            "colors": [
+                "F8D8A8",
+                "E0A878",
+                "785888",
+                "002030"
+            ],
+            "defaultName": "Default BG 3",
+            "defaultColors": [
+                "F8D8A8",
+                "E0A878",
+                "785888",
+                "002030"
+            ]
+        },
+        {
+            "id": "default-bg-4",
+            "name": "Default BG 4",
+            "colors": [
+                "B8D0D0",
+                "D880D8",
+                "8000A0",
+                "380000"
+            ],
+            "defaultName": "Default BG 4",
+            "defaultColors": [
+                "B8D0D0",
+                "D880D8",
+                "8000A0",
+                "380000"
+            ]
+        },
+        {
+            "id": "default-bg-5",
+            "name": "Default BG 5",
+            "colors": [
+                "F8F8B8",
+                "90C8C8",
+                "486878",
+                "082048"
+            ],
+            "defaultName": "Default BG 5",
+            "defaultColors": [
+                "F8F8B8",
+                "90C8C8",
+                "486878",
+                "082048"
+            ]
+        },
+        {
+            "id": "default-bg-6",
+            "name": "Default BG 6",
+            "colors": [
+                "F8D8B0",
+                "78C078",
+                "688840",
+                "583820"
+            ],
+            "defaultName": "Default BG 6",
+            "defaultColors": [
+                "F8D8B0",
+                "78C078",
+                "688840",
+                "583820"
+            ]
+        },
+        {
+            "id": "default-sprite",
+            "name": "Default Sprites",
+            "colors": [
+                "F8F0E0",
+                "D88078",
+                "B05010",
+                "000000"
+            ],
+            "defaultName": "Default Sprites",
+            "defaultColors": [
+                "F8F0E0",
+                "D88078",
+                "B05010",
+                "000000"
+            ]
+        },
+        {
+            "id": "default-ui",
+            "name": "Default UI",
+            "colors": [
+                "F8F8B8",
+                "90C8C8",
+                "486878",
+                "082048"
+            ],
+            "defaultName": "Default UI",
+            "defaultColors": [
+                "F8F8B8",
+                "90C8C8",
+                "486878",
+                "082048"
+            ]
+        }
+    ],
+    "customEvents": [],
+    "music": [
+        {
+            "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
+            "name": "template",
+            "filename": "template.mod",
+            "settings": {},
+            "inode": "56144710",
+            "_v": 1623250290590
+        }
+    ],
+    "variables": [],
+    "engineFieldValues": [
+        {
+            "id": "fade_style",
+            "value": 0
+        }
+    ],
+    "settings": {
+        "startSceneId": "adaee27a-79f8-4e17-8b5d-29e54798e1a4",
+        "playerSpriteSheetId": "f6e96c8a-8f59-479a-9001-6ae05f95cf45",
+        "startX": 9,
+        "startY": 8,
+        "startMoveSpeed": 1,
+        "startAnimSpeed": 3,
+        "startDirection": "down",
+        "showCollisions": true,
+        "showConnections": true,
+        "worldScrollX": 0,
+        "worldScrollY": 0,
+        "zoom": 191.09556104242802,
+        "customColorsEnabled": false,
+        "customHead": "",
+        "defaultBackgroundPaletteIds": [
+            "default-bg-1",
+            "default-bg-2",
+            "default-bg-3",
+            "default-bg-4",
+            "default-bg-5",
+            "default-bg-6"
+        ],
+        "defaultSpritePaletteId": "default-sprite",
+        "defaultUIPaletteId": "default-ui",
+        "playerPaletteId": "",
+        "navigatorSplitSizes": [
+            516,
+            172,
+            172
+        ],
+        "showNavigator": true,
+        "defaultFadeStyle": "white"
+    }
+}
